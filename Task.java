@@ -7,7 +7,7 @@ public abstract class Task {
 
     public abstract void readProblemData() throws IOException;
 
-    public abstract void formulateOracleQuestion() throws IOException;
+    public abstract void formulateOracleQuestion(StringBuilder out) throws IOException;
 
     public abstract void decipherOracleAnswer() throws IOException;
 
